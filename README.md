@@ -27,6 +27,25 @@ A simple, extensible real-time chat system built using **C++**, **POSIX sockets*
   - Room membership tracking
   - Message storage for editing/deleting
 - Logs all messages to timestamped `.log` files
+## 📁 Logs
+
+Each chat room maintains its own persistent **log file** for tracking activity. These logs are automatically created and updated by the server.
+
+### 🔸 File Naming
+Log files are named after the chat room:
+Example:  
+- `general.log`  
+- `projectX.log`
+
+### 🔸 What Gets Logged
+Each entry is timestamped and includes:
+- User joins and leaves  
+- Public messages  
+- Message edits  
+- Message deletions
+
+Example log content:
+
 
 ## 🧪 Commands
 
