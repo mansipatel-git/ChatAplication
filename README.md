@@ -34,8 +34,8 @@ Each chat room maintains its own persistent **log file** for tracking activity. 
 ### 🔸 File Naming
 Log files are named after the chat room:
 Example:  
-- `general.log`  
-- `projectX.log`
+- `Room1.log`  
+- `Room2.log`
 
 ### 🔸 What Gets Logged
 Each entry is timestamped and includes:
